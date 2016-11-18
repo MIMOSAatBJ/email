@@ -1,0 +1,9 @@
+test=true
+##发送邮件的服务器，一般不用修改
+host=smtp.exmail.qq.com
+##发送邮件的认证帐号
+auth_name=zhanghe@doumob.com
+##邮箱密码，与auth_name对应
+auth_pass=zhang123he
+##公司邮箱后缀
+mail_suffix=@doumob.com
