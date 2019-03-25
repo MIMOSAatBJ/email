@@ -66,18 +66,5 @@ public class EmailService {
 		return send(s.getEmail(),content);
 	}
 	
-//	public static void main(String[] args) {
-//		Salary s=new Salary();
-//		s.setName("张鹤");
-//		s.setRemark("-------");
-//		EmailService service=EmailService.getService();
-//		service.send(s);
-//		service.close();
-//		String header=MailTemplate.Salary_notice.getMailBody();
-//		String body=BeanUtil.buildContent(s);
-//		String footer=MailTemplate.Salary_notice.getFooter();
-//		String content=header+body+footer;
-//		System.out.println(content);
-//	}
 
 }
